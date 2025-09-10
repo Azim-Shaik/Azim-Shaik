@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('./assets/Pokemon\ Solid.ttf') format('truetype');
+}
+
+ul{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.card{
+
+    display: flex;
+    background-color:#70e0bb;
+    width: 371px;
+    height: 256px;
+    border-radius: 39px;
+    margin-bottom: 2rem;
+    list-style: none;
+}
+button{
+    border: none;
+    background-color:rgb(8, 9, 8);
+    color: white;
+    font-weight: 600;
+    width: 74px;
+    height: 31px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+    text-transform:capitalize;
+    cursor: pointer;
+
+}
+h3{
+    color: white;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+.PokemonTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+
+}
+.PokeImg{
+    width: 50%;
+
+}
+h1{
+    font-family: 'Pokemon Solid',sans-serif;;
+    color: yellow;
+    font-size: 50px;
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000,
+    -4px -4px 0 #000,
+    4px -4px 0 #000,
+    -4px 4px 0 #000,
+    4px 4px 0 #000;
+
+}
+.inputField{
+    width: 20rem;
+    height: 2rem;
+}
+.searchbtn{
+    background-color: red;
+    border-radius: 0%;
+    height: 38px;
+
+}
+
+.nxtprev{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+
