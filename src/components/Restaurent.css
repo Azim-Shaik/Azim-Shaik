@@ -1,0 +1,117 @@
+img{
+    width: 190px;
+    height: 11rem;
+    border-radius: 9px;
+    border: 2px solid white;
+    transition: border-color 0.3s ease;
+}
+img:hover{
+    border-color:#FFA500;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    list-style: none;
+   
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cart-item-el {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn{
+    width: 136px;
+    height: 35px;
+    border-radius: 19px;
+    position: relative;
+    bottom: 20px ;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Quantbtn{
+    width: 136px;
+    height: 35px;
+    border-radius: 19px;
+    position: relative;
+    bottom: 20px ;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+p{
+    margin: 0%;
+    font-size: 13px;
+}
+.MenuGrid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 54rem;
+    
+}
+body{
+    font-family: 'Red Hat Text',sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+.Cart{
+    position:absolute;
+    left: 76%;
+    width: 280px;
+    margin-bottom: 380px;
+    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.quant{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.orderCart{
+
+    width: 350px;
+    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    z-index: 1000;
+    background-color: white;
+    
+}
+
+.modalOverlay
+{
+     position:fixed;
+    inset: 0;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    z-index: 999;
+    justify-content: center;
+    height: auto;
+
+}
